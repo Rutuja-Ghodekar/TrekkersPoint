@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>Contact us</title>
+	<link href="connect.css" rel="stylesheet" type="text/css">
+
+</head>
+
+
+<body>
+	<nav class="navbar">
+        <ul class="nav-links">
+            <h1 class="logo">TREKKERS POINT</h1>
+            <li><a href="./page1.html">Home</a></li>
+			<li><a href="./join.html">Join Us</a></li>
+            <li><a href="./tours.html">Tours</a></li>
+            <li><a href="./explore.html">EXPLORE</a></li>
+            <li><a href="./about.html">ABOUT</a></li>
+            <li class="ctn"><a   href="#">CONTACT US</a></li>
+        </ul>
+        <img src="./menu-btn.png" alt="" class="menu-btn" >
+     </nav>
+	<section>
+	
+	<div class="heading">
+		<h1> <strong>CONTACT US !!</strong></h1>
+
+	</div>
+    </section>
+    <section class="col">
+        <div class="sub">
+        <h2>Contact Us on email</h2>
+        <p>trekkerspoint@gmail.com</p>
+		<h3>Follow on Instagram and Facebook</h3>
+		<p>Username:-trekkerspoint_2020</p>
+         </div>
+    </section>
+	<section class="row">
+         <h4>Submit your Doubts below</h4>
+	     <form name="f1">
+			 <div class="box">
+				 <input class="input-box" type="text" placeholder="Name" required><br>
+				 <input class="input-box" type="email" placeholder="email id" required><br>
+				 <input class="input-box" type="text" placeholder="query" required><br>
+				 <div class="btn"><input  class="button" type="submit"></div>
+				</div>
+	
+    </section>
+	<script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+        menuBtn.addEventListener('click',()=>{
+             navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+
+</html>

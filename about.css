@@ -1,0 +1,220 @@
+*
+{
+margin:0px;
+}
+
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+
+}
+.active{
+    font-weight: bold;
+    text-decoration: underline;
+}
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  
+    color: black;
+
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    background-color: rgb(160, 231, 142);
+    width: 100%;
+    height: 80px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    
+
+
+}
+.nav-links li{
+    margin:0 30px;
+}
+header{
+    width:100vw;
+    height:100vh;
+    background-image:url("t7.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    
+}
+.menu-btn{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 40px;
+    cursor: pointer;
+    
+}
+.heading{
+    text-align: center;
+    font-size:35px ;
+    color: black;
+    padding-top:100px;
+}
+.line p{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+    padding-top: 50px;
+}
+.box{
+    border: 2px solid black;
+    width:30%;
+    height:150px;
+    margin-left: 20px;
+    background-color: white;
+}
+.name{
+    font-size: 25px;
+    color:rgb(148, 38, 38) ;
+    margin-left: 5px;
+}
+.para{
+    font-size: 20px;
+    margin-left: 5px;
+    
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+}
+.container2{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+}
+.comments{
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    letter-spacing: 2px;
+    padding-top: 50px;
+}
+h2{
+    padding-top: 20px;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}
+.new{
+   padding-left: 650px;
+    font-size: 20px;
+}
+.input{
+    font-size: 20px;
+    height: 25px;
+    width: 300px;
+    border:3px solid black;
+    background-color: rgb(240, 192, 192);
+    
+}
+.new p{
+    font-size: 30px;
+    color: brown;
+    padding-left: 0%;
+    padding-bottom: 20px;
+}
+.btn{
+  margin-left: 100px;
+   width: 100px;
+   height: 25px;
+   margin-top: 20px;
+   font-weight: bold;
+   background-color: lightgreen;
+}
+.footer{
+    width:100%;
+    min-height: 100px;
+    padding: 20px 80px;
+    margin: 0;
+    background: grey;
+    text-align: center;
+    font-size: 20px;
+
+}
+.footer p{
+    color:black;
+    font-weight: bold;
+    margin: 20px auto;
+}
+.menu-btn{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 40px;
+    cursor: pointer;
+    
+}
+/* Mobile Device*/
+@media screen and (max-width:840px){
+    .menu-btn{
+        display: block;
+    }
+    .navbar{
+        padding: 0;
+    }
+    .logo{
+        position:absolute;
+        top: 30px;
+        left: 30px;
+    }
+    .nav-links{
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        background: lightgreen;
+        margin-top: -900px;
+        transition: all 0.5s ease;
+
+    }
+    .mobile-menu{
+        margin-top: 0px;
+        border-bottom-right-radius: 30%;
+    
+    }
+    
+    .nav-links li{
+        margin: 30px auto;
+    }
+    .new{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-left: 30%;
+    }
+    .container{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        
+    }
+    .box{
+        margin-top: 20px;
+        height:fit-content;
+    }
+    .container2{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    
+}
+

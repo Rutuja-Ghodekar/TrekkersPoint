@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TREKKERS</title>
+    <link rel="stylesheet" href="./pageno1.css">
+
+</head>
+<body>
+    <nav class="navbar">
+       <ul class="nav-links">
+           <h1 class="logo">TREKKERS POINT</h1>
+           <li class="active "><a href="#">Home</a></li>
+           <li><a href="./join.html">Join Us</a></li>
+           <li><a href="./tours.html">Tours</a></li>
+           <li><a href="explore.html">EXPLORE</a></li>
+           <li><a href="./about.html">ABOUT</a></li>
+           <li class="ctn"><a   href="./contact.html">CONTACT US</a></li>
+       </ul>
+       <img src="./menu-btn.png" alt="" class="menu-btn" >
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>EXPLORE THE BEAUTY OF MOUNTAINS</h2>
+            <div class="line"></div>
+            <h1> A GIFT BY NATURE</h1>
+            <a href="explore.html" class="ctn"> LEARN MORE</a>
+        </div>
+    </header>
+    <section class="events">
+        <div class="title">
+            <h1>UPCOMING EVENTS</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="waterfall.jpeg" alt="" >
+                <h4>Devkund Waterfall Trek</h4>
+                <p>Devkund Waterfall is located near Bhira, in raigad district.</p>
+                <a href="tours.html" class="ctn">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="fort.jpg" alt="">
+                <h4>Lohgad Fort Trek</h4>
+                <p>Located about 89 km from Mumbai and 68 km from Pune is one of the best build forts.</p>
+                <a href="tours.html" class="ctn">Learn More</a>
+            </div>
+        </div>
+    </section>
+    <section class="explore">
+      <div class="content">
+        <h1> EXPLORE THE BEAUTY OF SAHYADRIS</h1>
+        <p>Sahyadri, the handsome mountains of Maharshtra. There are thousands of attractions in Western Ghats. There were around 200 forts build across the Sahyadri mountains.</p>
+        <a href="#" class="ctn">Learn More</a>
+      </div>
+    </section>
+    <section class="footer">
+        <p>Pune | Made by: Rutuja Ghodekar</p>
+        <p>Copyright 2022 Trekkers Point</p>
+    </section>
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+        menuBtn.addEventListener('click',()=>{
+             navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+</html>

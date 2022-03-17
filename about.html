@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>About Us</title>
+	<link href="about.css" rel="stylesheet" type="text/css">
+
+</head>
+  
+
+<body>
+	<nav class="navbar">
+        <ul class="nav-links">
+            <h1 class="logo">TREKKERS POINT</h1>
+            <li><a href="./page1.html">Home</a></li>
+            <li><a href="./join.html">Join Us</a></li>
+            <li><a href="./tours.html">Tours</a></li>
+            <li><a href="./explore.html">EXPLORE</a></li>
+            <li><a href="./about.html">ABOUT</a></li>
+            <li class="ctn"><a   href="./contact.html">CONTACT US</a></li>
+        </ul>
+        <img src="./menu-btn.png" alt="" class="menu-btn" >
+     </nav>
+  <header>
+  <section>
+    <div class="line">
+      <h1 class="heading"> <b>More About Us </b></h1>
+      <p> Trekkers point was founded in the year 2019 . Our first trek was Purandar Fort in Pune district.
+          The group was only of 8 people when we started ,but now there are nearly 50 members in the group . We often host campaign of fort cleanliness , so that our beauty of forts can be preserved .<br>
+
+      </p>
+      <form class="new">
+     <p>Write your comments here</p>
+        <label for="name">Name</label><br>
+        <input class="input" type="text" id="name" name="name"><br>
+        <label for="comments">Comments</label><br>
+        <input class="input" type="text" id="comments" name="comments"><br>
+        <input  class="btn" type="submit" value="Submit">
+    </form>
+    </div>
+    <div class="comments">
+        <span>Comments</span>
+    </div>
+    <h2>Trekkers say</h2>
+    <div class="container">
+    <div class="box"> 
+        <div>
+            <strong class="name">Reem Anhalkar</strong>
+            <span class="name">@reemweb</span>
+            <p class="para">Had wonderful experience 2 days with the whole group.Would look forward for futher treks along with my friends</p>
+        </div>
+        
+    </div>
+    <div class="box"> 
+        <div>
+            <strong class="name">Akash Renamkar</strong>
+            <span class="name">@akashweb</span>
+            <p class="para">I went for devkund waterfall trek with my college friends , we really had a breathtaking experience .Would also like to join for cleanliness drives</p>
+        </div>
+        
+    </div>
+    <div class="box"> 
+        <div>
+            <strong class="name">Shrusti takalkar</strong>
+            <span class="name">@shrustiweb</span>
+            <p class="para">I have just starting doing treking because of my interest in history and nature . People who are intersted must try with this group once</p>
+        </div>
+        
+    </div>
+    </div>
+    <div class="container2">
+    <div class="box"> 
+        <div>
+            <strong class="name">Aniket dikshit</strong>
+            <span class="name">@aniweb</span>
+            <p class="para">Cleanliness drive was just too good and you guys are doing superb work . Appreciated all your work</p>
+        </div>
+        
+    </div>
+    <div class="box"> 
+        <div>
+            <strong class="name">Zinat Goyal</strong>
+            <span class="name">@goyalweb</span>
+            <p class="para">I had enjoyed the pratapgad trek and would love to come to torna as well .Do plan Torna trek as well</p>
+        </div>
+        
+    </div>
+    <div class="box"> 
+        <div>
+            <strong class="name">Manik Sheth</strong>
+            <span class="name">@manikweb</span>
+            <p class="para">I would like to make a blog video on our next trek. PEEPS who wanna join do join fast as next trek is just going to be more intersting and we will have fun as next trek will have camping.</p>
+        </div>
+        
+    </div>
+    </div>
+  </section>
+ 
+</header>
+<script>
+    const menuBtn = document.querySelector('.menu-btn')
+    const navlinks = document.querySelector('.nav-links')
+    menuBtn.addEventListener('click',()=>{
+         navlinks.classList.toggle('mobile-menu')
+    })
+</script>
+</body>
+</html>

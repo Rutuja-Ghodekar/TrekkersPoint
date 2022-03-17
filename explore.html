@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>About Us</title>
+	<link href="explore.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+   <nav class="navbar">
+    <ul class="nav-links">
+        <h1 class="logo">TREKKERS POINT</h1>
+        <li><a href="./page1.html">Home</a></li>
+        <li><a href="./join.html">Join Us</a></li>
+        <li><a href="./tours.html">Tours</a></li>
+        <li><a href="./explore.html">EXPLORE</a></li>
+        <li><a href="./about.html">ABOUT</a></li>
+        <li class="ctn"><a   href="./contact.html">CONTACT US</a></li>
+    </ul>
+    <img src="./menu-btn.png" alt="" class="menu-btn" >
+ </nav>
+ <section class="sect">
+    <div>
+        <h1>Mountain Activities </h1>
+        <div ></div>
+    </div>
+    <div class="act">
+        <div >
+            <div class="type">
+            <img src="q1.jpg" alt="" >
+            </div>
+            <h2 class="line">Rock Climbing</h2>
+            
+        </div>
+        
+        <div >
+            <img src="q3.jpg" alt=""class="type" >
+            <h2 class="line">Zip Line</h2>
+            
+        </div>
+
+        <div >
+            <img src="a3.jpg" alt="" class="type">
+            <h2 class="line">Rapelling</h2>
+            
+        </div>
+
+        <div >
+            <img src="q4.jpg" alt="" class="type">
+            <h2 class="line">Bungee Jumping</h2>
+            
+        </div>
+     </div>
+ </section>
+ <section class="explore">
+    <div class="content">
+      <h1> EXPLORE THE BEAUTY OF SAHYADRIS</h1>
+      <img src="t4.jpeg"  alt="" width="100%" height="600px">
+      <p>"One's destination is never a place , but a new way of seeing things."</p>
+    </div>
+  </section>
+  <section class="price">
+      <p>Rock climbing :100/per person</p><br>
+      <p>Zip line :200/per person</p><br>
+      <p>Rapelling :150/per person</p><br>
+      <p>Bungee Jumping :400/per person</p><br>
+  </section>
+  <script>
+    const menuBtn = document.querySelector('.menu-btn')
+    const navlinks = document.querySelector('.nav-links')
+    menuBtn.addEventListener('click',()=>{
+         navlinks.classList.toggle('mobile-menu')
+    })
+</script>
+
+ </body>
+ 
+</html>
